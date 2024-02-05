@@ -1,0 +1,7 @@
+Digite dois números inteiros: 20 não é múltiplo de 3
+Digite dois números inteiros: 34 não é múltiplo de 12
+Digite dois números inteiros: 64 é múltiplo de 8
+Digite dois números inteiros: 90 não é múltiplo de 345
+Digite dois números inteiros: 87 não é múltiplo de 100
+Digite dois números inteiros: Erro: O segundo número não pode ser zero.
+Digite dois números inteiros: Programa ecnerrado

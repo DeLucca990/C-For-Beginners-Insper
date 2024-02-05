@@ -5,3 +5,5 @@ int main(int argc, char *argv[]) {
 
   return 0;
 }
+
+// cc -Wall -pedantic -std=gnu99 -Og -o exemplo0 printf.c
