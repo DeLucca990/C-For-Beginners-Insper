@@ -6,14 +6,15 @@
 #include <stdio.h>
 
 int main() {
-    int s;
-    int i;
+    int s = 0;
+    int i = 1;
 
-    i = 0;
-    while (i < 10) {
+    while (i <= 10) {
         s += i;
         i++;
     }
+
+    printf("Valor da soma de 1 até 10: %d\n", s);
 
     // TODO: corrija o código acima e use printf para
     // mostrar a soma de 1 a 10

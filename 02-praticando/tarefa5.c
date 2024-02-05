@@ -4,11 +4,18 @@
 #define SOLUTIONFILE "tarefa5.c"
 
 #include <stdio.h>
+#include <math.h> 
 
 // TODO: declare função manhattan aqui. Veja abaixo como ela será usada
 
 // Deduza a ordem dos parâmetros a partir dos testes.
 
+int manhattan(int x1, int y1, int x2, int y2){
+    // fabs é mais usada para números do tipo float ou double
+    int resx = fabs(x1 - x2);
+    int resy = fabs(y1 - y2);
+    return resx + resy;
+}
 
 
 // não mexer
