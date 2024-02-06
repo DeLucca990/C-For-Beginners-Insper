@@ -7,6 +7,20 @@
 #include <stdio.h>
 
 /* TODO: implemente sua função conta_1 aqui */
+int conta_1(char *str){
+    int i = 0;
+    int c = 0;
+
+    // Percorre o array até que ache o valor correspondente a "\0" (Final do Array)
+    while (str[i] != '\0'){
+        if (str[i] == '1'){
+            c++;
+        }
+        i++;
+    }
+
+    return c;
+}
 
 int main() {
     

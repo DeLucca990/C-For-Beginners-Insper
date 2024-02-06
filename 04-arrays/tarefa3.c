@@ -7,6 +7,19 @@
 #include <stdio.h>
 
 /* TODO: implemente sua função conta_a aqui */
+int conta_a(char *str){
+    int i = 0;
+    int c = 0;
+
+    while (str[i] != '\0'){
+        if (str[i] == 'a'){
+            c++;
+        }
+        i++;
+    }
+
+    return c;
+}
 
 
 int main() {
