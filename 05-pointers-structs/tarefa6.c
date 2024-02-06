@@ -13,6 +13,14 @@ typedef struct {
 
 // TODO: declare função medio aqui. Veja abaixo como ela será usada
 int medio(ponto a, ponto b, ponto *m) {
+    if (a.x == b.x && a.y == b.y){
+        return 0;
+    } else {
+        m->x = (a.x + b.x) / 2; // Acessa o campo 'x' da estrutura apontada por 'm' (que é um ponteiro para um ponto) e atribui o valor médio
+        m->y = (a.y + b.y) / 2;
+        return 1;
+    }
+
     return 0;
 }
 
