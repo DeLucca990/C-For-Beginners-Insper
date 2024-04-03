@@ -1,2 +1,5 @@
-[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-7f7980b617ed060a017424585567c406b6ee15c891e84e1186181d67ecf80aa0.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=13709623)
-# mutirao-C
+# C for Beginners
+Welcome to the "C for Beginners" repository! This repository contains a series of functions and examples developed during a week dedicated to learning the C language at Insper.
+
+## Objective
+The objective of this repository is to provide beginners with a practical introduction to the C programming language. Here you will find a variety of code examples and functions that cover the basic and fundamental concepts of the language, helping you become familiar with the syntax and logic of programming in C.
